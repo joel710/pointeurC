@@ -1,0 +1,7 @@
+Ce code est un programme en langage C qui trie un tableau d'entiers dans l'ordre croissant en utilisant l'algorithme de tri à bulles (bubble sort). Voici une explication claire et concise du code :
+
+- La fonction `ft_swap` prend deux pointeurs vers des entiers en paramètre et échange les valeurs des entiers pointés.
+- La fonction `ft_sort_int_tab` trie le tableau d'entiers en utilisant l'algorithme de tri à bulles. Elle parcourt le tableau et compare les éléments adjacents, les échangeant s'ils ne sont pas dans le bon ordre, jusqu'à ce que le tableau soit entièrement trié.
+- La fonction `main` crée un tableau d'entiers de taille 5, l'initialise avec des valeurs désordonnées, appelle la fonction de tri `ft_sort_int_tab` pour trier le tableau, puis affiche les éléments triés à l'écran.
+
+Enfin, le programme affiche les éléments du tableau trié à l'écran.
